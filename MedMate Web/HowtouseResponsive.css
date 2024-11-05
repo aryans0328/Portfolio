@@ -1,0 +1,229 @@
+@media (max-width:952px){
+    .container0 {
+        display: inline-block;
+        position: absolute;
+        top:90px;
+        left:10px;
+    }
+    .typed-out{
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        padding-right: 5px;
+        font-size: 1.6rem;
+        width: 0;
+        margin-left: 0;
+        animation: typing 4s forwards, blinking 1.5s infinite;
+        animation-delay: 0s, 4s;
+        animation-iteration-count: 1, 4;
+      }
+      @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      @keyframes blinking {
+        0%{border-color:orange;}
+        100%{border-color:transparent;}
+      }
+      nav img{
+        position: absolute;
+        top:0px;
+        left:0px;
+        width:80px;
+        height:80px;
+    }
+    nav ul li a{
+        font-size:16px;
+    }
+    body{
+        width:100px;
+        height:780px;
+        background-size: cover;
+        -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+    .checkbtn{
+        display:block;
+    }
+    ul{
+        display: none;
+        position: fixed;
+        width: 92%;
+        height:88%;
+        /* background: rgb(186, 209, 218); */
+        background: white;
+        top:11%;
+        left:4%;
+        padding: 80px;
+        text-align: center;
+        transition: all .5s;
+        z-index: 1;
+        cursor: pointer;
+      }
+      nav ul li{
+        display:block;
+        margin:50px 0;
+        line-height: 30px;
+      }
+      nav ul li a{
+        font-size:20px;
+      }
+      nav ul li a:hover{
+        color: #707070;
+      }
+      /* a:hover,a.active{
+          background: none;
+          color:whitesmoke;
+      } */
+      #check:checked ~ ul{
+          display: block;
+      }
+    .checkbtn{
+        position: absolute;
+        top:4%;
+        right:4%;
+        background: transparent;
+        width: 50px;
+        height: 50px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    #check{
+        display: none;
+        width:50px;
+        height:50px;
+        position:absolute;
+        top:4%;
+        right:4%;
+    }
+    .checkbtn .h1{
+        background:white;
+        position:absolute;
+        top:0%;
+        left:10%;
+        width:60%;
+        height:4%;
+        border-radius: 4px;
+    }
+    .checkbtn .h2{
+        background:white;
+        position:absolute;
+        top:30%;
+        left:10%;
+        width:60%;
+        height:4%;
+        border-radius: 4px;
+    }
+    .checkbtn .h3{
+        background:white;
+        position:absolute;
+        top:60%;
+        left:10%;
+        width:60%;
+        height:4%;
+        border-radius: 4px;
+    }
+    #hr{
+        display: none;
+    }
+      .checkbtn .h1 .h2 .h3{
+        display: none;
+      }
+      ::-webkit-scrollbar{
+          width:5px;
+          margin-right:200px;
+      }
+      ::-webkit-scrollbar-track{
+          background: rgba(255, 255, 255, 0);
+      }
+      ::-webkit-scrollbar-thumb{
+          background: skyblue;
+          border-radius: 10px;
+          background-clip: content-box;
+          border:1.5px solid transparent;
+          height:20px;
+      }
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      .userguide{
+        /* margin-left: -50px; */
+        position: absolute;
+        top:150px;
+        left:0px;
+        display:inline-flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        text-align: left;
+        }
+        .userguidedivmain{
+            width:350px;
+            height:650px;
+            background: transparent;
+            /* backdrop-filter:blur(5px); */
+            border-radius: 20px;
+        }
+        .userguidediv{
+            width:320px;
+            height:620px;
+            background: rgba(255, 255, 255, 0.208);
+            backdrop-filter:blur(5px);
+            border-radius: 20px;
+        }
+        .userguidediv:before{
+            content: '';
+            width:320px;
+            height:350px;
+            background: white;
+            position: absolute;
+            top:0px;
+            left:0px;
+            opacity: .1;
+            border-radius: 20px;
+            padding-bottom: 80px;
+        }
+        .userguidedivimg{
+          position: absolute;
+          top:20px;
+          left:8%;
+          width:250px;
+          height:450px;
+          border-radius: 10px;
+        }
+        .userguidedivimgdesc{
+          position: absolute;
+          bottom:40px;
+          left: 20px;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 20px;
+          text-wrap: wrap;
+          color: #707070;
+        }
+}

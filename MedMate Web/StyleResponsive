@@ -1,0 +1,100 @@
+@media (max-width:952px){
+    label.logo{
+        font-size:30px;
+        color:white;
+        letter-spacing: 2px;
+        padding-left:50px;
+    }
+    nav ul li a{
+        font-size:16px;
+    }
+    body{
+        width:100px;
+        height:1000px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+    .checkbtn{
+        display:block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height:100%;
+        background: #707070;
+        top:80px;
+        left:-100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display:block;
+        margin:50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size:20px;
+    }
+    nav ul li a:hover{
+        background: white;
+        color:#707070;
+    }
+    a:hover,a.active{
+        background: none;
+        color:whitesmoke;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+    .checkbtn{
+        position: absolute;
+        top:4%;
+        right:4%;
+        background: transparent;
+        width: 50px;
+        height: 50px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    #check{
+        display: none;
+        width:50px;
+        height:50px;
+        position:absolute;
+        top:4%;
+        right:4%;
+    }
+    .checkbtn .h1{
+        background:white;
+        position:absolute;
+        top:0%;
+        left:10%;
+        width:60%;
+        height:4%;
+        border-radius: 4px;
+    }
+    .checkbtn .h2{
+        background:white;
+        position:absolute;
+        top:30%;
+        left:10%;
+        width:60%;
+        height:4%;
+        border-radius: 4px;
+    }
+    .checkbtn .h3{
+        background:white;
+        position:absolute;
+        top:60%;
+        left:10%;
+        width:60%;
+        height:4%;
+        border-radius: 4px;
+    }
+    #hr{
+        display: none;
+    }
+}

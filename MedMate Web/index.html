@@ -1,0 +1,233 @@
+<!Doctype html>
+<html>
+<head>
+    <title>
+        MedMate
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="StyleResponsive.css">
+    <link rel="stylesheet" type="text/css" href="your_website_domain/css_root/flaticon.css">
+    <script src="script1.js" defer></script>
+    <script src="Script2.js"></script>
+</head>
+<body oncontextmenu="return false">
+    <script>
+        let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+    </script>
+<div class="medmateweb1">
+  <img src="MedMatebackground4.avif" alt="" class="medmateweb1img">
+  <div class="medmateweb1bottom"><br>We Provide 24 Hour Service</div>
+</div>
+<div class="responsiveblock">
+  <div class="responsivetextmain">
+    <div class="responsivetext">
+      <img src="MedMateSlider1.jpeg" alt="" class="responsivetextimg" width="80px" height="50px">
+      <div class="responsivetext1Title">Tracking days</div>
+      <div class="responsivetext1Desc">
+        Our app provides a calendar where users can track the duration of their medication
+      </div>
+    </div>
+  </div>
+  
+  <div class="responsivetextmain">
+    <div class="responsivetext">
+      <img src="MedMateSlider2.jpeg" alt="" class="responsivetextimg" width="80px" height="50px">
+      <div class="responsivetext1Title">Detail description</div>
+      <div class="responsivetext1Desc">
+        Our app not only reminds you to take your medicine but also describes the condition in which the meds should be taken
+      </div>
+    </div>
+  </div>
+  
+  <div class="responsivetextmain">
+    <div class="responsivetext">
+      <img src="MedMateSlider3.jpg" alt="" class="responsivetextimg" width="80px" height="50px">
+      <div class="responsivetext1Title">Alaram</div>
+      <div class="responsivetext1Desc">
+        Our app provides facility to set alarm according to the patients prescription and notify them to take their meds
+      </div>
+    </div>
+  </div>
+  
+  <div class="responsivetextmain">
+    <div class="responsivetext">
+      <img src="1234.jpg" alt="" class="responsivetextimg" width="80px" height="50px">
+      <div class="responsivetext1Title">Smooth experience</div>
+      <div class="responsivetext1Desc">
+        Our app is user friendly and can be used by user of any age group.
+      </div>
+    </div>
+  </div>
+</div>
+<a href="app-mock-debug.apk" download="Medmate.apk" class="download">Download APK</a>
+    <div id="hr"></div>
+    <nav>
+        <img src="medmatelogobest.png"width="110px"height="110px"><div class="container0"><div class="typed-out">Welcome to MedMate</div></div>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="h1"></i><i class="h2"></i><i class="h3"></i>
+        </label>
+        <ul>
+            <li class="li" id="active"><a href="index.html">MedMate</a></li>
+            <li class="li" ><a href="Howtouse.html">How to use</a></li>
+            <li class="li" ><a href="MedicineInfo.html">Medicine Info</a></li>
+            <li class="li" ><a href="AboutUs.html">About Us</a></li>
+        </ul>
+    </nav>
+    <div class="div1">
+        <div class="div1-statement1">- Confused By the timing / names of pills</div>
+        <br>
+        <div class="div1-statement2">- Medmate helps to manage your pills</div>
+        <a href="app-mock-debug.apk" download="Medmate.apk" class="div1-button1">Sign In</a>
+    </div> 
+    <div class="div2">
+        <div class="div2-statement1"> We Provide</div>
+        <br>
+        <div class="div2-statement2">- Medicine Information</div>
+        <div class="div2-statement2-lines"> <a href=""> -   Paracetomol</a><br>
+                                            <a href=""> -   Headache</a><br>
+                                            <a href=""> -   Body Pain</a><br>
+        </div>
+        <div class="div2-statement3"><img src="alarm.png" alt="alarm"> Alarm for Medicine  </div>
+    </div>
+    <div class="slideshow-container">
+
+        <div class="mySlides fade" style="display: block;" id="MySlidesFade">
+          <div class="SlideInfo">
+            <div class="SlideInfoTitle">24 Hour Service </div>
+            <div class="SlideInfoDesc">
+              We provide our customer all time services
+            </div>
+          </div>
+        </div>
+      
+        <div class="mySlides fade" id="MySlidesFade">
+          <div class="SlideInfo">
+            <div class="SlideInfoTitle">Tracking Days </div>
+            <div class="SlideInfoDesc">
+              Our app provides a calendar where users can track the duration of their medication
+            </div>
+          </div>
+        </div>
+      
+        <div class="mySlides fade" id="MySlidesFade">
+          <div class="SlideInfo">
+            <div class="SlideInfoTitle">Detail Description </div>
+            <div class="SlideInfoDesc">
+              Our app not only reminds you to take your medicine but also describes the condition in which the meds should be taken
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade" style="display: block;" id="MySlidesFade">
+          <div class="SlideInfo">
+            <div class="SlideInfoTitle">Alarm </div>
+            <div class="SlideInfoDesc">
+              Our app provides facility to set alarm according to the patients prescription and notify them to take their meds
+            </div>
+          </div>
+        </div>
+
+        <div class="mySlides fade" style="display: block;" id="MySlidesFade">
+          <div class="SlideInfo">
+            <div class="SlideInfoTitle">Smooth Experience </div>
+            <div class="SlideInfoDesc">
+              Our app is user friendly and can be used by user of any age group.
+            </div>
+          </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div style="text-align:center"  class="dot-main">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+      </div>
+      <br>
+      <div class="contianer-calender">
+        <div class="calendar">
+          <div class="calendar-header">
+            <span class="month-picker" id="month-picker"> May </span>
+            <div class="year-picker" id="year-picker">
+              <span class="year-change" id="pre-year">
+                <pre><</pre>
+              </span>
+              <span id="year">2020 </span>
+              <span class="year-change" id="next-year">
+                <pre>></pre>
+              </span>
+            </div>
+          </div>
+   
+          <div class="calendar-body">
+            <div class="calendar-week-days">
+              <div>Sun</div>
+              <div>Mon</div>
+              <div>Tue</div>
+              <div>Wed</div>
+              <div>Thu</div>
+              <div>Fri</div>
+              <div>Sat</div>
+            </div>
+            <div class="calendar-days">
+            </div>
+          </div>
+          <div class="calendar-footer">
+          </div>
+          <div class="month-list"></div>
+        </div>
+      </div>
+      <footer><img src="pills.png"class="footer-img"><p class="logo1">MEDMATE <i class="logo2">POWERED BY ARYAN</i></p>
+        <div class="ScoialMedia">
+          <div class="ScoialMedia1">Social Media </div>
+          <img src="linkedin.png" alt="linkedin"class="img1"><img src="x-twitter.svg" alt="x-twitter"class="img2"><img src="instagram.png" alt="instagram"class="img3"><img src="whatsapp.png" alt="whatsapp"class="img4">
+        <a href="https://www.linkedin.com/in/aryan-shinde-44b9b5276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="linkdin"></a>
+        <a href="https://twitter.com/aryan03284?t=ZZSsaiG2HW5Y5viuQ1NKDg&s=08 " class="twitter"></a>
+        <a href="https://instagram.com/aryan_328s?igshid=MzRlODBiNWFlZA==" class="instagram"></a>
+        <a href="https://wa.me/qr/FPKFBA4J25JJA1 " class="Whatsapp"></a>
+        </div>
+        <div class="date-time-formate">
+          <div class="date-time-value">
+            <div class="time-formate">00:00:00</div>
+            <div class="date-formate"></div>
+          </div>
+        </div>
+        <footer class="div10">
+          <div>&nbsp;&nbsp;&nbsp;&nbsp;Our Projects</div> 
+          <p class="pp">
+              <a href="" class="pa1">MedMate</a>
+          </p>
+        </footer>
+        <a href="" class="Help">Help !</a>
+        <a href="" class="FeedBack">FeedBack</a>
+      </footer>
+</body>

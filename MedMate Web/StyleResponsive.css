@@ -1,0 +1,565 @@
+@media (max-width:952px){
+    .container0 {
+        display: inline-block;
+        position: absolute;
+        top:90px;
+        left:10px;
+    }
+    .typed-out{
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        padding-right: 5px;
+        font-size: 1.6rem;
+        width: 0;
+        margin-left: 0;
+        animation: typing 4s forwards, blinking 1.5s infinite;
+        animation-delay: 0s, 4s;
+        animation-iteration-count: 1, 4;
+      }
+      @keyframes typing {
+        from { width: 0; }
+        to { width: 100%; }
+      }
+      @keyframes blinking {
+        0%{border-color:orange;}
+        100%{border-color:transparent;}
+      }
+      nav{
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+      }
+    nav img{
+        position: absolute;
+        top:0px;
+        left:0px;
+        width:80px;
+        height:80px;
+    }
+    nav ul li a{
+        font-size:16px;
+        color:black;
+    }
+    body{
+        background: rgb(186, 209, 218);
+        -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+    .checkbtn{
+        display:block;
+    }
+    ul{
+      display: none;
+      position: fixed;
+      width: 92%;
+      height:88%;
+      /* background: rgb(186, 209, 218); */
+      background: white;
+      top:11%;
+      left:4%;
+      padding: 80px;
+      text-align: center;
+      transition: all .5s;
+      z-index: 1;
+      cursor: pointer;
+      color:black;
+    }
+    nav ul li{
+      display:block;
+      margin:50px 0;
+      line-height: 30px;
+      color: black;
+    }
+    nav ul li a{
+      font-size:20px;
+      color: black;
+    }
+    nav ul li a:hover{
+      color: #707070;
+    }
+    /* a:hover,a.active{
+        background: none;
+        color:whitesmoke;
+    } */
+    #check:checked ~ ul{
+        display: block;
+    }
+    .checkbtn{
+        position: absolute;
+        top:4%;
+        right:4%;
+        background: transparent;
+        width: 50px;
+        height: 50px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    #check{
+        display: none;
+        width:50px;
+        height:50px;
+        position:absolute;
+        top:4%;
+        right:4%;
+    }
+    .checkbtn .h1{
+        background:white;
+        position:absolute;
+        top:0%;
+        left:10%;
+        width:60%;
+        height:4%;
+        border-radius: 4px;
+    }
+    .checkbtn .h2{
+        background:white;
+        position:absolute;
+        top:30%;
+        left:10%;
+        width:60%;
+        height:4%;
+        border-radius: 4px;
+    }
+    .checkbtn .h3{
+        background:white;
+        position:absolute;
+        top:60%;
+        left:10%;
+        width:60%;
+        height:4%;
+        border-radius: 4px;
+    }
+    #hr{
+        display: none;
+    }
+    .div1{
+        display: none;
+    }
+    .div2{
+        display: none;
+    }
+    .slideshow-container{
+        display: none;
+    }
+    footer{
+        position: absolute;
+        top:1150px;
+        left:0px;
+        background: rgb(164, 164, 164);
+        height: 250px;
+        width: 100%;
+        color:white;
+        overflow: hidden;
+      }
+      .footer-img{
+        position: absolute;
+        top:10px;
+        left:5px;
+        width:40px;
+        height:40px;
+      }
+      .logo1{
+        position: absolute;
+        top:20px;
+        left:55px;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 22px;
+      
+      }
+      .logo2{
+        letter-spacing: 0px;
+        word-spacing: 1px;
+        color:white;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 8px;
+      }
+      footer footer{
+        position: absolute;
+        top:210px;
+        font-size: 25px;
+        left:0px;
+        margin-right: 20px;
+        background:rgba(135, 207, 235, 0.511);
+        height:50px;
+        width: 100%;
+      }
+      footer footer div{
+        font-size: 20px;
+        position: absolute;
+        top:8px;
+        left:-10px;
+      }
+      .pp{
+        position: absolute;
+        top: 10px;
+        font-size: 18px;
+        right: 20px;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .pp a{
+        color:black;
+      }
+      .pp a:hover{
+        color:white;
+      }
+      .pa2{
+        display: none;
+      }
+      .ScoialMedia1{
+        position: absolute;
+        top:175px;
+        left:8px;
+        font-size: 20px;
+        color: white;
+        font-family: 'Times New Roman', Times, serif;
+      }
+      .img1{
+        position: absolute;
+        top:175px;
+        padding:4px;
+        background: transparent;
+        left:150px;
+        width:28px;
+        height:28px;
+        border-radius:5px;
+      }
+      .img2{
+        position: absolute;
+        top:175px;
+        padding:4px;
+        background: transparent;
+        left:200px;
+        width:28px;
+        height:28px;
+        border-radius:5px;
+      }
+      .img3{
+        position: absolute;
+        top:175px;
+        padding:4px;
+        background: transparent;
+        left:250px;
+        width:28px;
+        height:28px;
+        border-radius:5px;
+      }
+      .img4{
+        position: absolute;
+        top:175px;
+        padding:4px;
+        background: transparent;
+        left:300px;
+        width:28px;
+        height:28px;
+        border-radius:5px;
+      }
+      .linkdin{
+        position: absolute;
+        top:175px;
+        padding:4px;
+        background: transparent;
+        left:150px;
+        width:28px;
+        height:28px;
+        border-radius:5px;
+      }
+      .twitter{
+        position: absolute;
+        top:175px;
+        padding:4px;
+        background: transparent;
+        left:200px;
+        width:28px;
+        height:28px;
+        border-radius:5px;
+      }
+      .instagram{
+        position: absolute;
+        top:175px;
+        padding:4px;
+        background: transparent;
+        left:250px;
+        width:28px;
+        height:28px;
+        border-radius:5px;
+      }
+      .Whatsapp{
+        position: absolute;
+        top:175px;
+        padding:4px;
+        background: transparent;
+        left:300px;
+        width:28px;
+        height:28px;
+        border-radius:5px;
+      }
+      .Help{
+        position: absolute;
+        top:95px;
+        right:39px;
+        letter-spacing: 1px;
+        font-family: Courier;
+        font-size: 15px;
+        color: rgb(94, 94, 94);
+        background: transparent;
+        outline: none;
+        border: none;
+        font-style: underline;
+      }
+      .FeedBack{
+        position: absolute;
+        top:130px;
+        right:20px;
+        letter-spacing: 1px;
+        font-family: Courier;
+        font-size: 15px;
+        color: rgb(94, 94, 94);
+        background: transparent;
+        outline: none;
+        border: none;
+      }
+      .date-time-formate {
+        width: max-content;
+        height: max-content;
+        font-family: Dubai Light, Century Gothic;
+        position: absolute;
+        display: inline;
+        top: 150px;
+        left:0px;
+        background: transparent;
+        border-radius: 10px;
+        justify-content: center;
+      }
+      .date-time-value {
+        display: block;
+        height: max-content;
+        width: max-content;
+        position: relative;
+        left: 5%;
+        top: -18px;
+        text-align: center;
+      }
+      .time-formate {
+        font-size: 1.5rem;
+        position: absolute;
+        top:-30px;
+        left:0;
+      }
+      .time-formate.hideTime {
+        animation: hidetime 1.5s forwards;
+      }
+      .day-text-formate.hidetime {
+        animation: hidetime 1.5s forwards;
+      }
+      .date-formate.hideTime {
+        animation: hidetime 1.5s forwards;
+      }
+      .day-text-formate.showtime{
+        animation: showtime 1s forwards;
+      }
+      .time-formate.showtime {
+        animation: showtime 1s forwards;
+      }
+      .date-formate.showtime {
+        animation: showtime 1s forwards;
+      }
+      @keyframes to-top {
+        0% {
+          transform: translateY(0);
+          opacity: 0;
+        }
+        100% {
+          transform: translateY(100%);
+          opacity: 1;
+        }
+      }
+      @keyframes to-left {
+        0% {
+          transform: translatex(230%);
+          opacity: 1;
+        }
+        100% {
+          transform: translatex(0);
+          opacity: 1;
+        }
+      }
+      @keyframes to-right {
+        10% {
+          transform: translatex(0);
+          opacity: 1;
+        }
+        100% {
+          transform: translatex(-150%);
+          opacity: 1;
+        }
+      }
+      @keyframes showtime {
+        0% {
+          transform: translatex(250%);
+          opacity: 1;
+        }
+        100% {
+          transform: translatex(0%);
+          opacity: 1;
+        }
+      }
+      @keyframes hidetime {
+        0% {
+          transform: translatex(0%);
+          opacity: 1;
+        }
+        100% {
+          transform: translatex(-370%);
+          opacity: 1;
+        }
+      }
+      @media (max-width:375px) {
+        .month-list>div{
+      
+          margin: 5px 0px;
+        }
+      }
+      ::-webkit-scrollbar{
+        width:5px;
+        margin-right:200px;
+    }
+    ::-webkit-scrollbar-track{
+        background: rgba(255, 255, 255, 0);
+    }
+    ::-webkit-scrollbar-thumb{
+        background: rgba(135, 207, 235, 0.694);
+        border-radius: 10px;
+        background-clip: content-box;
+        border:1.5px solid transparent;
+        height:20px;
+    }
+    .medmateweb1{
+        display: block;
+        position: absolute;
+        top:150px;
+        left:50px;
+        width:280px;
+        height: 160px;
+      }
+      .medmateweb1img{
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+      }
+      .medmateweb1bottom{
+        position: absolute;
+        top:50%;
+        display: none;
+        width: 100%;
+        height: 50%;
+        background: linear-gradient(transparent,skyblue);
+        font-size: 15px;
+        color: black;
+        justify-content: center;
+        text-align:center;
+        align-items: center;
+        justify-items: center;
+        font-weight: bold;
+        font-family: 'Brush Script MT', cursive;
+        letter-spacing: 1px;
+        word-spacing: 2px;
+        border-radius: 0 0 20px 20px;
+      }
+      .medmateweb1:hover .medmateweb1bottom{
+        display: block;
+      }
+      .responsiveblock{
+        position: absolute;
+        top:350px;
+        left:0px;
+        display:inline-flex;
+        justify-content:space-evenly;
+        flex-wrap: wrap;
+        text-align: left;
+      }
+      .responsivetextmain{
+        width:350px;
+        height:180px;
+        background: transparent;
+        border-radius: 20px;
+      }
+      .responsivetext{
+        display: block;
+        width:320px;
+        height:80px;
+        background: rgba(255, 255, 255, 0.037);
+        backdrop-filter:blur(0.1px);
+        border-radius: 20px;
+      }
+      .responsivetext::before{
+        content: '';
+        width:320px;
+        height:80px;
+        background: white;
+        position: absolute;
+        top:0px;
+        left:0px;
+        opacity: .1;
+        border-radius: 20px;
+        padding-bottom: 80px;
+      }
+      .responsivetext1Title{
+        position: absolute;
+        top:10px;
+        left:100px;
+        display: block;
+        color: black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+      }
+      .responsivetext1Desc{
+        position: absolute;
+        top:70px;
+        left:10px;
+        display: block;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        color: #707070;
+      }
+      .responsivetextimg{
+        position: absolute;
+        top:5px;
+        left:5px;
+        display: block;
+        width:80px;
+        height:50px;
+        border-radius: 10px;
+      }
+      .responsivetextimg:hover{
+        width:320px;
+        height:150px;
+        border-radius: 10px;
+      }
+      .download{
+        display: block;
+        position: absolute;
+        top:1080px;
+        left:40px;
+        width:250px;
+        padding: 10px;
+        background: rgb(150, 208, 231);
+        color: black;
+        border: none;
+        outline: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 18px;
+        text-align: center;
+        border-radius: 10px;
+      }
+      .download:hover{
+        background: rgb(119, 181, 25);
+      }
+      .contianer-calender{
+        display: none;
+      }
+}

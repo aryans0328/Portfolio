@@ -1,0 +1,174 @@
+@media (max-width:952px){
+    .container {
+        display: inline-block;
+        position: absolute;
+        top:80px;
+        left:10px;
+    }
+    .typed-out{
+        overflow: hidden;
+        border-right: .15em solid orange;
+        white-space: nowrap;
+        padding-right: 5px;
+        /* font-family: Segoe Script; */
+        font-size: 1.6rem;
+        width: 0;
+        margin-left: 0;
+        animation: typing 4s forwards;
+      }
+      @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+    nav img{
+        display: block;
+        position: absolute;
+        top:-10px;
+        left:0px;
+    }
+    nav ul li a{
+        font-size:16px;
+    }
+    body{
+        width:100px;
+        height:780px;
+        background-size: cover;
+        -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    }
+    .checkbtn{
+        display:block;
+    }
+    ul{
+        display: none;
+        position: fixed;
+        width: 92%;
+        height:88%;
+        /* background: rgb(186, 209, 218); */
+        background: white;
+        top:11%;
+        left:4%;
+        padding: 80px;
+        text-align: center;
+        transition: all .5s;
+        z-index: 1;
+        cursor: pointer;
+      }
+      nav ul li{
+        display:block;
+        margin:50px 0;
+        line-height: 30px;
+      }
+      nav ul li a{
+        font-size:20px;
+      }
+      nav ul li a:hover{
+        color: #707070;
+      }
+      /* a:hover,a.active{
+          background: none;
+          color:whitesmoke;
+      } */
+      #check:checked ~ ul{
+          display: block;
+      }
+    .checkbtn{
+        position: absolute;
+        top:4%;
+        right:4%;
+        background: transparent;
+        width: 50px;
+        height: 50px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+    #check{
+        display: none;
+        width:50px;
+        height:50px;
+        position:absolute;
+        top:4%;
+        right:4%;
+    }
+    .checkbtn .h1{
+        background:white;
+        position:absolute;
+        top:0%;
+        left:10%;
+        width:60%;
+        height:4%;
+        border-radius: 4px;
+    }
+    .checkbtn .h2{
+        background:white;
+        position:absolute;
+        top:30%;
+        left:10%;
+        width:60%;
+        height:4%;
+        border-radius: 4px;
+    }
+    .checkbtn .h3{
+        background:white;
+        position:absolute;
+        top:60%;
+        left:10%;
+        width:60%;
+        height:4%;
+        border-radius: 4px;
+    }
+    #hr{
+        display: none;
+    }
+    .AboutUs2{
+        width:100%;
+        height:100%;
+        font-family:monotype corsiva;
+    }
+    .AboutUs2 h1{
+        top:45%;
+        left:10%;
+        font-size:40px;
+    }
+    .AboutUs2 h2{
+        top:55%;
+        left:10%;
+        font-size:20px;
+    }
+    .AboutUs{
+        width:370px;
+        height:100%;
+    }
+    .AboutUs .devloper-list{
+        width: 300px;
+        margin-left:50px;
+    }
+    .AboutUs .devloper-list .devloper{
+        width:395px;
+    }
+    .AboutUs .devloper-list .devloper::before{
+        width:100%;
+        height:80%;
+    }
+    .AboutUs .devloper-list .devloper::after{
+        height:70%;
+    }
+    .AboutUs .devloper-list .devloper h1{
+        font-size: 18px;
+    }
+    .AboutUs .devloper-list .devloper h2{
+        font-size: 16px;
+    }
+    .AboutUs .devloper-list .devloper p{
+        font-size:17px;
+    }
+    #check{
+        display: none;
+    }
+    body{
+        background-size: cover;
+    }
+}
