@@ -1,0 +1,99 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>
+            Portfolio
+        </title>
+        <link href="style.css" rel="stylesheet">
+        <link href="StyleResponsive.css" rel="stylesheet">
+    </head>
+    <body>
+        <script>
+            function navbox(){
+                var c=document.getElementById("Iamnav");
+                if(c.style.display === "block"){
+                    c.style.display = "none";
+                }
+            }
+        </script>
+        <nav id="Iamnav">
+            <div class="typed-out">ARYAN</div>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="h1"></i><i class="h2"></i><i class="h3"></i>
+            </label>
+            <ul>
+              <li class="li" id="active"><a href="#Portfolio" onclick="navbox()">Portfolio</a></li>
+              <li class="li" id="cfs"><a href="#Certificates" onclick="navbox()">Certificates</a></li>
+              <li class="li" ><a href="#Projects" onclick="navbox()">Projects</a></li>
+              <!-- <li class="li" ><a href="ContactMe.html">Education</a></li> -->
+          </ul>
+          <!-- <button class="nav_button">Contact Me</button> -->
+        </nav>
+        <div class="section_1" id="Portfolio">
+            <div class="section_1_1">
+                <div class="section_1_1_text">Hey, <br>
+                                            I'm <i class="section_1_1_text_subtext">Aryan _</i> <br>
+                                            a Frontend Developer _ <br><br>
+                                            <div class="italic">HTML | CSS | JAVASCRIPT | C | C++ | JAVA | PYTHON</div>
+                </div><br><br>
+                <a href="ContactMe.html" class="contact">Contact Me</a>
+            </div>
+        </div>
+        <!-- <div class="image"><img src="Aryan.jpg" class="image_img"></div> -->
+        <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                <mask id="mask0" mask-type="alpha">
+                    <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                </mask>
+                <g mask="url(#mask0)">
+                    <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                    <image class="home__blob-img" x="50" y="20" href="Aryan_Profile.png"/>
+                </g>
+            </svg>
+        </div>
+        <img src="Aryan_Profile.png" class="myimg">
+
+
+        <div class="section_2" id="Certificates">
+            <div class="section_2_2_text"><u>Certificates</u></div><br><br>
+            <div class="Certificate_Images">
+                <img src="AI_Certificate.png" class="Certificate_Images1">
+                <img src="SIH_Certificate.jpg" class="Certificate_Images2">
+            </div>
+        </div>
+
+
+        <div class="section_3" id="Projects">
+            <div class="section_3_3_text"><u>Projects</u></div><br><br>
+            <div class="Project_Images">
+                <div class="Project_Images1">
+                    <img src="Project_Image/Project_Medmate.png" class="Project_Images1_1">
+                    <a href="MedMate Web/index.html">Go to website</a>
+                </div>
+                <div class="Project_Images2">
+                    <img src="Project_Image/Project_Coffee.png" class="Project_Images2_2">
+                    <a href="https://aryans032804.github.io/Aryan0328/">Go to website</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="footer">
+            <p class="logo1">ARYAN </p>
+                <!-- <i class="logo2">POWERED <img src="logo.png" class="footer-img"></i> -->
+            <div class="ScoialMedia">
+              <!-- <div class="ScoialMedia1">Social Media </div> -->
+              <img src="linkedin.png" alt="linkedin"class="img1"><img src="x-twitter.svg" alt="x-twitter"class="img2"><img src="instagram.png" alt="instagram"class="img3"><img src="whatsapp.png" alt="whatsapp"class="img4">
+            <a href="https://www.linkedin.com/in/aryan-shinde-44b9b5276?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app " class="linkdin"></a>
+            <a href="https://twitter.com/aryan03284?t=ZZSsaiG2HW5Y5viuQ1NKDg&s=08 " class="twitter"></a>
+            <a href="https://instagram.com/aryan_328s?igshid=MzRlODBiNWFlZA==" class="instagram"></a>
+            <a href="https://wa.me/qr/FPKFBA4J25JJA1 " class="Whatsapp"></a>
+            </div>
+            <div class="FooterMyName">© 2024 Aryan | All Rigts Reserved</div>
+            <a href="" class="Help">Help !</a>
+            <a href="" class="FeedBack">FeedBack</a>
+        </div>
+    </body>
+</html>
